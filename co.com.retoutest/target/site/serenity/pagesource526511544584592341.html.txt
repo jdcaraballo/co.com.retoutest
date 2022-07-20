@@ -1,0 +1,519 @@
+<html dir="ltr" lang="en-US"><head><style>.ssQIHO-checkbox-menu-item>span>span{background-color:#000;display:inline-block}@media (forced-colors:active),(prefers-contrast:more){.ssQIHO-checkbox-menu-item>span>span{background-color:ButtonText}}
+</style><style>.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}.gm-style .gm-style-mtc ul,.gm-style .gm-style-mtc li{box-sizing:border-box}
+</style><style>.gm-control-active>img{box-sizing:content-box;display:none;left:50%;pointer-events:none;position:absolute;top:50%;transform:translate(-50%,-50%)}.gm-control-active>img:nth-child(1){display:block}.gm-control-active:focus>img:nth-child(1),.gm-control-active:hover>img:nth-child(1),.gm-control-active:active>img:nth-child(1),.gm-control-active:disabled>img:nth-child(1){display:none}.gm-control-active:focus>img:nth-child(2),.gm-control-active:hover>img:nth-child(2){display:block}.gm-control-active:active>img:nth-child(3){display:block}.gm-control-active:disabled>img:nth-child(4){display:block}
+</style><link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700|Google+Sans+Text:400&amp;lang=en"><link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans+Text:400&amp;text=%E2%86%90%E2%86%92%E2%86%91%E2%86%93&amp;lang=en"><style>.gm-ui-hover-effect{opacity:.6}.gm-ui-hover-effect:hover{opacity:1}.gm-ui-hover-effect>span{background-color:#000}@media (forced-colors:active),(prefers-contrast:more){.gm-ui-hover-effect>span{background-color:ButtonText}}
+</style><style>.gm-style .gm-style-cc a,.gm-style .gm-style-cc button,.gm-style .gm-style-cc span,.gm-style .gm-style-mtc div{font-size:10px;box-sizing:border-box}.gm-style .gm-style-cc a,.gm-style .gm-style-cc button,.gm-style .gm-style-cc span{outline-offset:3px}
+</style><style>@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style>.gm-style-moc{background-color:rgba(0,0,0,.45);pointer-events:none;text-align:center;transition:opacity ease-in-out}.gm-style-mot{color:white;font-family:Roboto,Arial,sans-serif;font-size:22px;margin:0;position:relative;top:50%;transform:translateY(-50%);-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%)}
+</style><style>.gm-style img{max-width: none;}.gm-style {font: 400 11px Roboto, Arial, sans-serif; text-decoration: none;}</style><style>@keyframes beginBrowserAutofill{0%{}to{}}@keyframes endBrowserAutofill{0%{}to{}}.pac-container{background-color:#fff;position:absolute!important;z-index:1000;border-radius:2px;border-top:1px solid #d9d9d9;font-family:Arial,sans-serif;box-shadow:0 2px 6px rgba(0,0,0,.3);-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;overflow:hidden}.pac-logo:after{content:"";padding:1px 1px 1px 0;height:18px;box-sizing:border-box;text-align:right;display:block;background-image:url(https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white3.png);background-position:right;background-repeat:no-repeat;background-size:120px 14px}.hdpi.pac-logo:after{background-image:url(https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white3_hdpi.png)}.pac-item{cursor:default;padding:0 4px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;line-height:30px;text-align:left;border-top:1px solid #e6e6e6;font-size:11px;color:#515151}.pac-item:hover{background-color:#fafafa}.pac-item-selected,.pac-item-selected:hover{background-color:#ebf2fe}.pac-matched{font-weight:700}.pac-item-query{font-size:13px;padding-right:3px;color:#000}.pac-icon{width:15px;height:20px;margin-right:7px;margin-top:6px;display:inline-block;vertical-align:top;background-image:url(https://maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons.png);background-size:34px}.hdpi .pac-icon{background-image:url(https://maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons_hdpi.png)}.pac-icon-search{background-position:-1px -1px}.pac-item-selected .pac-icon-search{background-position:-18px -1px}.pac-icon-marker{background-position:-1px -161px}.pac-item-selected .pac-icon-marker{background-position:-18px -161px}.pac-placeholder{color:gray}.pac-target-input:-webkit-autofill{animation-name:beginBrowserAutofill}.pac-target-input:not(:-webkit-autofill){animation-name:endBrowserAutofill}
+</style><style>@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <base href="/">
+
+  <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/CHIHFAf1bjFPOjwwi5Xa4cWR/recaptcha__es.js" crossorigin="anonymous" integrity="sha384-j27fOwt95JrJSNIE6G44EnBAa0IGqGO6aDRj+0TEKV3oVj1ud8r6w7wIp4ql7hje"></script><script src="https://connect.facebook.net/signals/config/2056077547826832?v=2.9.65&amp;r=stable" async=""></script><script async="" src="//connect.facebook.net/en_US/fbevents.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51204031-2', 'auto');
+  ga('set', 'anonymizeIp', true);
+
+  </script>
+
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq||location.host.match('(integration|stage|localhost)'))return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','//connect.facebook.net/en_US/fbevents.js');
+        if(typeof fbq !== 'undefined'){fbq('init', 2056077547826832);}
+        </script>
+    <noscript>
+      <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2056077547826832&ev=PageView&noscript=1">
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+  <!-- Emoji provided by EmojiOne: http://emojione.com/ -->
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128">
+  <meta name="application-name" content="&nbsp;">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="mstile-144x144.png">
+  <meta name="msapplication-square70x70logo" content="mstile-70x70.png">
+  <meta name="msapplication-square150x150logo" content="mstile-150x150.png">
+  <meta name="msapplication-wide310x150logo" content="mstile-310x150.png">
+  <meta name="msapplication-square310x310logo" content="mstile-310x310.png">
+
+  <link rel="stylesheet" href="https://use.typekit.net/emc4mjh.css">
+<link rel="stylesheet" href="styles.5e181881f4d4489ed1af.css"><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/943241068/?random=1658196926035&amp;cv=9&amp;fst=1658196926035&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=376635470%2C375603260&amp;u_h=720&amp;u_w=1280&amp;u_ah=672&amp;u_aw=1280&amp;u_cd=24&amp;u_his=2&amp;u_tz=-300&amp;u_java=false&amp;u_nplug=5&amp;u_nmime=2&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fwww.utest.com%2F&amp;hn=www.googleadservices.com&amp;rfmt=3&amp;fmt=4"></script><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"><style id="inert-style">
+[inert] {
+  pointer-events: none;
+  cursor: default;
+}
+
+[inert], [inert] * {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+</style><meta meta-value="" name="keywords" content="software,testing">
+              <meta meta-value="" name="description" content="Elevate your testing skills – READ articles, RATE tools, LEARN new skills, FIND paid projects and CHAT about tech, career &amp; trends with your peers.">
+              <meta meta-value="" name="title" property="og:title" content="uTest - Welcome to uTest">
+              <!---->
+              <meta meta-value="" name="description" property="og:description" content="Elevate your testing skills – READ articles, RATE tools, LEARN new skills, FIND paid projects and CHAT about tech, career &amp; trends with your peers.">
+              <title meta-value="" ng-bind="meta.title ? (meta.title | emojiUnicode) : meta.title">uTest - Welcome to uTest</title><style>.center-text[_ngcontent-hqe-c29]{text-align:center}.padding-0[_ngcontent-hqe-c29]{padding:0}.padding-top-10[_ngcontent-hqe-c29]{padding-top:10px}.padding-bottom-10[_ngcontent-hqe-c29]{padding-bottom:10px}.padding-top-5[_ngcontent-hqe-c29]{padding-top:5px}.padding-sides-40[_ngcontent-hqe-c29]{padding-left:40px;padding-right:40px}.margin-bottom-100[_ngcontent-hqe-c29]{margin-bottom:100px}.image-right-max-300[_ngcontent-hqe-c29]{max-height:300px;float:right}.equal-height[_ngcontent-hqe-c29]{display:flex;flex-wrap:wrap;align-items:center}.unauth-home-table-bg[_ngcontent-hqe-c29]{background-size:75% 200%;padding-bottom:60px}.how-utest-works[_ngcontent-hqe-c29]   h2[_ngcontent-hqe-c29]{margin-top:0}</style><script id="ui_gmap_map_load_92f5b6d5-0ed4-4d11-9b23-32553f90eb21" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.35&amp;libraries=places&amp;language=en&amp;key=AIzaSyD0P6ggCh5k0EDL852L8Nor4j1Z9xmjznQ&amp;callback=onGoogleMapsReady851"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/49/9/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/49/9/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/49/9/controls.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/49/9/places_impl.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/49/9/map.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/49/9/marker.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/49/9/geocoder.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/49/9/onion.js"></script></head>
+
+<body route-classes="" player-sugar="" ng-style="!showNtuxNavigation ? {'overflow-y' : 'scroll'} : {'overflow-y' : 'hidden'}" style="overflow-y: scroll;">
+
+  <!----><ui-view class="" style="">
+<!-- this should be visible all the time with the flag off, but only visible to signed in users with the flag on  -->
+<!---->
+<!---->
+<!---->
+<landing-messages>
+<!---->
+</landing-messages>
+
+<!----><unauthenticated-container ng-if="!showNtuxNavigation">
+<div class="unauthenticated-container">
+  <div>
+    <unauthenticated-header>
+<div class="navbar navbar-default navbar-fixed-top unauthenticated-nav-bar">
+  <div class="unauthenticated-nav-bar__logo navbar-brand hidden-xs">
+    <a ui-sref="home" href="/"><img src="assets/images/uTestLogoNavDark.svg" alt="uTest home page"></a>
+  </div>
+  <div class="unauthenticated-nav-bar__logo-small navbar-brand hidden-sm hidden-md hidden-lg">
+    <a ui-sref="home" href="/"><img src="assets/images/utestLogoIconBlue.svg" alt="uTest home page"></a>
+  </div>
+  <div class="unauthenticated-nav-bar__links navbar-right hidden-sm hidden-xs">
+    <ul class="nav navbar-nav">
+      <li>
+        <unauthenticated-header-nav-item name="Why uTest" route="why-utest" highlight="why-utest">
+<a class="unauthenticated-nav-bar__routed-link unauthenticated-nav-bar__link" ui-sref="why-utest" href="/why-utest">
+  <span ng-class="{'unauthenticated-nav-bar__link-text--selected' : $ctrl.isSelected}">Why uTest</span>
+</a>
+</unauthenticated-header-nav-item>
+      </li>
+      <li>
+        <unauthenticated-header-nav-item name="About Us" route="about-us" highlight="about-us">
+<a class="unauthenticated-nav-bar__routed-link unauthenticated-nav-bar__link" ui-sref="about-us" href="/about-us">
+  <span ng-class="{'unauthenticated-nav-bar__link-text--selected' : $ctrl.isSelected}">About Us</span>
+</a>
+</unauthenticated-header-nav-item>
+      </li>
+      <li>
+        <unauthenticated-header-nav-item name="Projects" route="project" highlight="project,singleproject,projectlist">
+<a class="unauthenticated-nav-bar__routed-link unauthenticated-nav-bar__link" ui-sref="project" href="/projects">
+  <span ng-class="{'unauthenticated-nav-bar__link-text--selected' : $ctrl.isSelected}">Projects</span>
+</a>
+</unauthenticated-header-nav-item>
+      </li>
+      <li class="unauthenticated-nav-bar__divider"></li>
+    </ul>
+    <ul class="nav navbar-nav">
+      <li>
+        <a class="unauthenticated-nav-bar__link" href="/login?return_to=" target="_self">Log In</a>
+      </li>
+      <li>
+        <a class="unauthenticated-nav-bar__sign-up" ui-sref="signup.personal" href="/signup/personal">Join Today</a>
+      </li>
+    </ul>
+  </div>
+  <div class="unauthenticated-nav-bar__dropdown-toggle hidden-md hidden-lg">
+    <div>
+      <button ng-click="$ctrl.toggleMenu()">
+        <i class="material-icons">menu</i>
+      </button>
+    </div>
+  </div>
+  <div ng-show="$ctrl.isOpen" class="unauthenticated-nav-bar__dropdown-menu unauthenticated-nav-bar__dropdown-menu--hide ng-hide" id="unauthenticated-dropdown-nav">
+    <ul>
+      <li><a class="unauthenticated-nav-bar__dropdown-menu-link" ui-sref="why-utest" ng-click="$ctrl.closeMenu()" href="/why-utest">Why uTest</a></li>
+      <li><a class="unauthenticated-nav-bar__dropdown-menu-link" ui-sref="about-us" ng-click="$ctrl.closeMenu()" href="/about-us">About Us</a></li>
+      <li><a ui-sref="project" class="unauthenticated-nav-bar__dropdown-menu-link" ng-click="$ctrl.closeMenu()" href="/projects">Projects</a></li>
+      <li class="unauthenticated-nav-bar__dropdown-menu-divider"></li>
+      <li><a class="unauthenticated-nav-bar__dropdown-menu-link" href="/login?return_to=" target="_self">Log In</a></li>
+      <li><a class="unauthenticated-nav-bar__dropdown-menu-sign-up" ui-sref="signup.personal" href="/signup/personal">Join Today</a></li>
+    </ul>
+  </div>
+</div>
+
+</unauthenticated-header>
+
+    <div auto-padding="nav-bar-container" auto-padding-event="adjust-nav-padding" id="mainUiView" class="main-ui-view unauthenticated-view" scrolly="" scroll-target="#navBar" autoscroll="true">
+      <!----><ui-view><div id="mainContent"><div ng-bind-html="page.content | trustAsHtml"><style type="text/css">
+  p, ul {
+    letter-spacing: .01em;
+  }
+  .welcome-page {
+    text-align: left;
+  }
+  .welcome-icons {
+    vertical-align: middle;
+  }
+  .welcome-page ul {
+   margin-left: 40px;
+   padding-left: 0px;
+  }
+  .welcome-page li {
+    font-size: 1.6rem;
+    padding: 10px 0;
+  }
+  .welcome-lead {
+    font-size: 1.8rem;
+    margin: 10px 0 35px;
+  }
+  .welcome-subheading {
+    color: #86878A;
+    line-height: 20px;
+    font-size: 1.5rem;
+  }
+  .welcome-highlight {
+    color: #00a8cc;
+  }
+  .equal {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+  }
+  .gradient-cold{
+    background: linear-gradient(90deg,#4dd9b6 25%,#2690d0)
+  }
+  .gradient-cold.gradient-diagonal {
+    background: linear-gradient(45deg,#4dd9b6 25%,#2690d0)
+  }
+  i.gradient-cold {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    display:initial
+  }
+  .image-box {
+    position: relative;
+    width: 100%;
+    min-height: 360px;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: 50% 40%;
+    filter: saturate(120%) brightness(110%);
+  }
+  .image-box.gradient-cold-hero::before, .image-box.gradient-cold-hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .image-box.gradient-cold-hero::before {
+    z-index: 10;
+    background: rgba(0,0,0,0.35);
+  }
+  .image-box.gradient-cold-hero::after {
+    z-index: 15;
+    background: linear-gradient(to bottom, rgba(38, 144, 208, 0.5) -10%, transparent 50%),
+                linear-gradient(-16deg, rgba(33, 193, 161, 0.4) 0%, transparent 40%)
+    ;
+  }
+  .image-box .image-box-header {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    right: 50px;
+  }
+  .image-box h1 {
+      margin: 50px auto !important;
+      color: #fff;
+      max-width: 900px;
+      padding: 0 15px;
+      font-size: 42px !important;
+      z-index: 20;
+      position: relative;
+  }
+  .material-icons.md-36{ font-size:36px }
+  .icons-spotlight {
+    display: inline-block;
+    background:#f3f4f5;
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    text-align: center;
+    line-height: 150px
+  }
+  .icons-spotlight.medium {
+    width: 84px;
+    height: 84px;
+    line-height: 84px;
+  }
+  .icons-spotlight i {
+    color:#86878a
+  }
+  .signup-dots {
+    visibility: hidden;
+  }
+  .btn-white {
+    color: #58585B;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .btn-white:hover {
+    background: #F3F4F5;
+    color: #58585B;
+  }
+  .row:before, .row:after {display: none !important;}
+  @media (min-width: 992px) {
+    .btn-welcome {
+      position: absolute;
+      bottom: -40px;
+      width: 65%;
+    }
+    .bottom-divider {
+      margin: 40px 0;
+    }
+    .top-divider {
+      margin-top: 62px;
+    }
+    .signup-steps {
+      height: 375px;
+    }
+    .signup-text {
+      padding-left: 0px;
+    }
+    .signup-dots {
+      visibility: visible;
+      position: absolute;
+      width: 64%;
+      border-top: 0;
+      border-bottom: 2px dotted #E7E8E9;
+      top: 36px;
+      left: 68%;
+    }
+    .welcome-hero {
+      font-size: 42px !important;
+      text-align: left;
+      margin-left: 14px;
+      width: 600px;
+      z-index: 20;
+    }
+  }
+</style>
+
+
+<div class="welcome-page">
+  <div class="image-box gradient-cold-hero" style="background-image: url('assets/images/home/utest_welcome.jpg')">
+    <div class="image-box-header">
+      <h1>Welcome to the world's largest community of freelance software testers!</h1>
+    </div>
+  </div>
+  <div class="container block">
+    <div class="container block">
+      <p class="welcome-lead">We are excited that you have found your way to uTest - home of the largest community of digital freelance software testers in the world! <b>First, please check your email inbox</b> to confirm your email address and complete your uTest registration.<br><br>Next, we have gathered the following useful information to help you get started.</p>
+      <p><strong>As a new tester, we recommend that you follow these 3 steps to begin getting involved with uTest:</strong></p><p>
+    </p></div>
+    <div class="row equal container block signup-steps">
+      <div class="col-md-4 block">
+        <div aria-hidden="true" class="text-center" style="height: 100px;">
+          <div class="icons-spotlight medium">
+            <i class="welcome-icons material-icons md-36 gradient-cold gradient-diagonal">school</i>
+            <hr class="signup-dots">
+          </div>
+        </div>
+        <div class="signup-text block">
+          <p class="welcome-highlight"><strong>Step 1</strong></p>
+          <p><strong>Participate in the uTest Academy</strong></p>
+          <p class="welcome-subheading">The Academy is uTest's educational platform dedicated to your training and skill advancement. </p>
+          <a class="btn btn-filled btn-yellow btn-block btn-welcome" href="http://www.utest.com/academy" target="_blank" rel="noopener">Begin uTest Academy</a>
+        </div>
+      </div>
+      <div class="col-md-4 block">
+        <div aria-hidden="true" class="text-center" style="height: 100px;">
+          <div class="icons-spotlight medium">
+            <i class="welcome-icons material-icons md-36 gradient-cold gradient-diagonal">face</i>
+            <hr class="signup-dots">
+          </div>
+        </div>
+        <div class="signup-text block">
+          <p class="welcome-highlight"><strong>Step 2</strong></p><p>
+          </p><p><strong>Complete your Tester Profile</strong></p>
+          <p class="welcome-subheading">The information within your Tester profile is used to match you with paid project opportunities from our clients.</p>
+          <a class="btn btn-filled btn-white btn-block btn-welcome" href="https://platform.utest.com/account/my-profile/devices" target="_blank" rel="noopener">Profile Settings</a>
+        </div>
+      </div>
+      <div class="col-md-4 block">
+        <div aria-hidden="true" class="text-center" style="height: 100px;">
+          <div class="icons-spotlight medium">
+            <i class="welcome-icons material-icons md-36 gradient-cold gradient-diagonal">payment</i>
+          </div>
+        </div>
+        <div class="signup-text block">
+          <p class="welcome-highlight"><strong>Step 3</strong></p>
+          <p><strong>Setup your payment method</strong></p>
+          <p class="welcome-subheading">
+            In order to receive payments for your work, you need to set a payment method in your tester profile.
+          </p>
+          <a class="btn btn-filled btn-white btn-block btn-welcome" href="https://platform.utest.com/account/payments" target="_blank" rel="noopener">Payment Methods</a>
+        </div>
+      </div>
+    </div>
+    <hr class="top-divider">
+    <div class="container block">
+      <p style="font-size: 3.0rem; margin-bottom: 30px;"><strong>How uTest Works</strong>
+      </p><p>
+        As a freelance software tester on uTest, you can help test apps, software and devices for some of your favorite tech and lifestyle brands. Members of uTest are granted exclusive access to test products before they are released. You’ll earn money for providing your feedback and reporting bugs.
+      </p>
+      <p>
+       uTesters are matched with paid projects opportunities (called Test
+        Cycles) based on the specific requirements of each Test Cycle and the information
+        you provide within your Tester Profile.
+      </p>
+      <p>
+        When you are selected to participate in a project, you will receive an invitation via email with instructions to review the project you are invited to. Follow the link in the email to accept or decline a project invitation.
+      </p>
+      <p>
+        Occasionally, there will be cycles with such unique requirements that uTest is unable to automatically match testers to find the ideal testing team. When this happens, we may:
+        </p><ul>
+          <li>
+            Post the project to the <a href="https://www.utest.com/projects?tab=all" target="_blank" rel="noopener">Projects Board</a>, where we publish projects that require specific setups or a specific demographic. Review a project to see if you match the requirements, and apply if you think you are a match!
+          </li>
+          <li>
+            Email you directly to discuss the project.
+          </li>
+          <li>
+            Send you a Special Requirement Survey asking for additional information that could match you with the project.
+          </li>
+        </ul>
+      <p></p>
+      <hr class="bottom-divider">
+      <p>If you would like to read even more about uTest before you dive into uTest services, we invite you to read through our <a href="https://www.utest.com/academy" target="_blank" rel="noopener">Academy Training Courses</a>.</p>
+      <p>Still have questions? Check our <a href="https://support.utest.com/" target="_blank" rel="noopener">Tester Support page</a>.</p>
+    </div>
+  </div>
+</div>
+</div></div></ui-view>
+    </div>
+  </div>
+  <unauthenticated-footer>
+<div class="unauthenticated-footer">
+  <div class="unauthenticated-footer__ctas container-fluid">
+    <div class="col-md-6">
+      <div class="unauthenticated-footer__logo col-md-3">
+        <img alt="Utest Logo Icon" src="assets/images/utestLogoIconBlue.svg">
+      </div>
+      <div class="col-md-9">
+        <div class="unauthenticated-footer__cta-heading">Join uTest, a Community Like No Other!</div>
+        <p class="unauthenticated-footer__cta-subheading">Learn, earn and connect with a global community of software testers.</p>
+        <a class="unauthenticated-footer__cta-link" ui-sref="signup.personal" href="/signup/personal">Sign Me Up!</a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="unauthenticated-footer__social">
+        <a href="https://twitter.com/utest" target="_blank" title="Follow on Twitter">
+          <img src="assets/images/social/twitter.svg" alt="Twitter">
+        </a>
+        <a href="https://www.facebook.com/utest" target="_blank" title="Follow on Facebook">
+          <img src="assets/images/social/facebook.svg" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/utestinc/" target="_blank" title="Follow on Instagram">
+          <img src="assets/images/social/instagram.svg" alt="Instagram">
+        </a>
+        <a href="https://www.linkedin.com/company/utest" target="_blank" title="Follow on LinkedIn">
+          <img src="assets/images/social/linkedin.svg" alt="LinkedIn">
+        </a>
+      </div>
+      <div class="unauthenticated-footer__apps">
+        <div class="unauthenticated-footer__apps-text col-sm-6">Bring uTest wherever you go with the mobile app.</div>
+        <div class="unauthenticated-footer__app-icons col-md-6">
+          <a href="https://apps.apple.com/tt/app/utest/id1492960703?ign-mpt=uo%3D2" target="_blank" aria-label="iOS App, download on the app store">
+            <img src="assets/images/download-on-the-app-store-badge.svg" alt="App Store Badge">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.applause.utestqa&amp;hl=en_US" target="_blank" aria-label="Android App, get it on google play">
+            <img src="assets/images/google-play-store-badge.svg" alt="Play Store Badge">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="unauthenticated-footer__nav container-fluid">
+    <div class="unauthenticated-footer__nav-items col-md-6">
+      <ul>
+        <li class="unauthenticated-footer__nav-item">
+          <a href="/utest-guidelines" target="_blank">uTest Guidelines</a>
+        </li>
+        <li class="unauthenticated-footer__nav-item">
+          <a href="/privacy-policy" target="_blank">Privacy Policy</a>
+        </li>
+        <li class="unauthenticated-footer__nav-item">
+          <a href="/terms-and-conditions" target="_blank">Terms &amp; Conditions</a>
+        </li>
+        <li class="unauthenticated-footer__nav-item">
+          <a href="https://support.utest.com/csp" target="_blank">Help &amp; Support</a>
+        </li>
+      </ul>
+    </div>
+    <div class="unauthenticated-footer__copyright col-md-6">
+      © 2022 Applause App Quality, Inc.
+    </div>
+  </div>
+</div>
+</unauthenticated-footer>
+</div>
+</unauthenticated-container><!---->
+
+
+
+  <!-- unauthenticated-footer -->
+</ui-view>
+
+  <noscript>
+    <style>
+      body {
+        border-top:3px solid #00a8cc;
+        padding:0;
+        margin:0;
+        background: #262626 url('/assets/images/uTestLogoNav.svg') left +30px top +30px no-repeat;
+        background-size:100px;
+        font-family: sans-serif;
+        padding:200px 30px 30px;
+        color: white;
+        text-align: center;
+        font-weight: 100;
+      }
+    </style>
+    <h1>JavaScript Required</h1>
+    <p>We're sorry, but uTest doesn't work without JavaScript enabled.</p>
+  </noscript>
+
+  <!-- Google Code for Remarketing Tag -->
+  <script type="text/javascript">
+   /* <![CDATA[ */
+   var google_conversion_id = 943241068;
+   var google_custom_params = window.google_tag_params;
+   var google_remarketing_only = true;
+   /* ]]> */
+  </script>
+  <div style="display: none">
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+  </div>
+  <!-- / Google Code for Remarketing Tag -->
+
+  <!-- / Wistia Video Player Scripts -->
+  <script src="https://fast.wistia.com/assets/external/E-v1.js" async=""></script>
+  <script src="//fast.wistia.com/embed/medias/o98jkwxo72.jsonp" async=""></script>
+<script src="runtime.b4f8bfe2ce2a8240df3f.js" defer=""></script><script src="polyfills-es5.cf3315d4746c4ebb50a4.js" nomodule="" defer=""></script><script src="polyfills.9ecfcacb6b3317dfded6.js" defer=""></script><script src="scripts.d08a2067bb8e989b123a.js" defer=""></script><script src="main.c82fd2c8d6c820363437.js" defer=""></script>
+
+
+<script async="" defer="" src="https://www.google.com/recaptcha/api.js?onload=vcRecaptchaApiLoaded&amp;render=explicit"></script><div class="pac-container pac-logo hdpi" style="width: 289px; position: absolute; left: 496px; top: 400px; display: none;"></div><div style="visibility: hidden; position: absolute; width: 100%; top: -10000px; left: 0px; right: 0px; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.5;"></div><div style="margin: 0px auto; top: 0px; left: 0px; right: 0px; position: absolute; border: 1px solid rgb(204, 204, 204); z-index: 2000000000; background-color: rgb(255, 255, 255); overflow: hidden; width: 0px; height: 0px;"><iframe title="El reCAPTCHA caduca dentro de dos minutos" src="https://www.google.com/recaptcha/api2/bframe?hl=es&amp;v=CHIHFAf1bjFPOjwwi5Xa4cWR&amp;k=6Lc3i14UAAAAAHVkSmSnecXg9DpfrJ1gYeuOzaCw" name="c-hvusw17swb16" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 0px; height: 0px;"></iframe></div></div></body></html>

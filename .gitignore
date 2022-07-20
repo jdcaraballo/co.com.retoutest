@@ -1,0 +1,6 @@
+# Project exclude paths
+/co.com.retoutest/.gradle/
+/co.com.retoutest/build/
+/co.com.retoutest/out/
+/co.com.retoutest/out/production/classes/
+/co.com.retoutest/out/test/classes/
